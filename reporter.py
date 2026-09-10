@@ -1,4 +1,5 @@
 import requests
+import keyring as kr
 from map import save_db, load_db, db_content_name
 from time import sleep
 db=load_db(db_content_name)
@@ -29,11 +30,14 @@ def report_ip(ip,categs,comment,times,key):
 		return False
 
 def main():
-	key=''
-	while len(key)<5:
+	key=kr.get_password('AbuseIPDB','extropy')
+	if not key:
+		print('[-] Error while getting your API key! Did you configure it first?')
+		return
+	'''while len(key)<5:
 		key=input("Please enter your AbuseIPDB API key: ")
 		if len(key)<5:
-			print("[-] Error: Invalid Key")
+			print("[-] Error: Invalid Key")'''
 	for ip in db:
 		if not db[ip].get('reported',False):
 			data=db[ip]

@@ -42,7 +42,7 @@ source cti-env/bin/activate
 
 echo "Installing Python libraries"
 pip install --upgrade pip
-pip install folium requests numpy
+pip install folium requests numpy keyring
 
 echo "====================================================="
 echo "         Installation completed successfully!        "
