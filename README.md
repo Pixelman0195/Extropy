@@ -24,6 +24,10 @@ Finally for a more active apporach to cybersecurity the framework has a built-in
 I'm Pixelman0195 and Extropy is my very first project. I created Extropy as sort of a supplement for my own Cowrie Honeypot that is running on Raspberry Pi 3B.  This year (2026) I am starting college and majoring in 
 Computer Science - Information Security Management, so I will gladly accept any comments on my code and/or documentation ;).
 
+## ATTENTION!
+Extropy is a honeypot based framework that operates with real malware, payloads and intrusion attempts. It is highly recommended to use it on an isolated network on a device with least privilege.
+The author has no responisibility for the potential users' actions and any potential damage to users' digital and physical property and any other. **Use on your own responsibility** 
+
 ## Installation
 **Extropy can be installed with just 2 commands**
 
