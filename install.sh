@@ -3,7 +3,7 @@
 set -e
 
 echo "==============================================================="
-echo "   Auto-Installer for Cowrie & CTI project by Pixelman0195     "
+echo "   Auto-Installer for Cowrie & Extropy by Pixelman0195     "
 echo "==============================================================="
 
 echo "[+] Updating system and installing dependencies..."
@@ -32,10 +32,10 @@ sudo su - cowrie -c "
 "
 echo "[+] Configuring the CTI environment..."
 cd ~
-if [ ! -d 'CTI_Project' ]; then
-    mkdir CTI_Project
+if [ ! -d 'Extropy' ]; then
+    mkdir Extropy
 fi
-cd CTI_Project
+cd Extropy
 
 python3 -m venv cti-env
 source cti-env/bin/activate
