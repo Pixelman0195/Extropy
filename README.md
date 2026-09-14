@@ -41,6 +41,10 @@ Then we open the freshly installed file `install.sh` in order to install Cowrie 
 
 And voila! Both Extropy and Cowrie should be installed!
 
+## Usage
+<img width="2506" height="1267" alt="image" src="https://github.com/user-attachments/assets/40894e9f-8d9c-49d3-8354-1302a3510b1c" />
+
+
 ## Join the discussion!
 Thank you for reading through this readme. If you have any questions I would be happy to help and if you have any comments on my project then feel free to leave them as I would greatly appreciate any form of feedback!
 
